@@ -1,0 +1,31 @@
+{
+  "home": {
+    "allReviews": "Всі відгуки",
+    "promotionalProposals": "Акційні пропозиції",
+    "promotionalProposalsDescr": "Найкращі акційні пропозиції від Vivienne Westwood",
+    "categories": "Категорії",
+    "categoriesDescr": "Оберіть бездоганні прикраси для вашого ідеального образу",
+    "allComplects": "Всі комплекти",
+    "allSales": "Всі акції",
+    "sales": "Акції",
+    "salesDescr": "Знижки до 50% на прикраси від Vivienne Westwood",
+    "watchAll": "Дивитися всі",
+    "benefitsTitle": "Переваги Vivienne Westwood",
+    "benefitsDescr": "Ми прагнемо створити винятковий досвід для наших клієнтів"
+  },
+  "cart": {
+    "title": "Корзина",
+    "empty": "Корзина порожня",
+    "continue_shopping": "Продовжити покупки"
+  },
+  "language": {
+    "ua": "UA",
+    "ru": "RU"
+  },
+  "navigation": {
+    "catalog": "Каталог",
+    "about": "Про нас",
+    "delivery": "Доставка",
+    "contacts": "Контакти"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "home": {
+    "allReviews": "Все отзывы",
+    "promotionalProposals": "Акционные предложения",
+    "promotionalProposalsDescr": "Лучшие акционные предложения от Vivienne Westwood",
+    "categories": "Категории",
+    "categoriesDescr": "Выберите идеальные украшения для вашего идеального образа",
+    "allComplects": "Все комплекты",
+    "allSales": "Все акции",
+    "sales": "Акции",
+    "salesDescr": "Скидки до 50% на украшения от Vivienne Westwood",
+    "watchAll": "Смотреть все",
+    "benefitsTitle": "Преимущества Vivienne Westwood",
+    "benefitsDescr": "Мы стремимся создать исключительный опыт для наших клиентов"
+  },
+  "cart": {
+    "title": "Корзина",
+    "empty": "Корзина пустая",
+    "continue_shopping": "Продолжить покупки"
+  },
+  "language": {
+    "ua": "UA",
+    "ru": "RU"
+  },
+  "navigation": {
+    "catalog": "Каталог",
+    "about": "О нас",
+    "delivery": "Доставка",
+    "contacts": "Контакты"
+  }
+}
