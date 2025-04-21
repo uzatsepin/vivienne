@@ -70,62 +70,62 @@ const { t } = useI18n();
 const featuredProducts = [
     {
         id: 1,
-        name: 'Колье "Орбита"',
-        category: "Намисто",
-        price: 12500,
-        discountPrice: null,
-        image: "https://images.unsplash.com/photo-1599643477877-530eb83abc8e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1500&q=80",
-        isNew: true,
-        discount: null
-    },
-    {
-        id: 2,
-        name: 'Серьги "Созвездие"',
+        name: 'Сережки Vivienne Westwood New Petite Red Earrings',
         category: "Сережки",
-        price: 8900,
-        discountPrice: 6900,
-        image: "https://images.unsplash.com/photo-1515562141207-7a88fb7ce338?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1500&q=80",
-        isNew: false,
+        price: 7200,
+        discountPrice: 6800,
+        image: "https://static.tildacdn.com/stor3033-3236-4663-a435-316332333032/17398718.jpg",
+        isNew: true,
         discount: 20
     },
     {
-        id: 3,
-        name: 'Кольцо "Сатурн"',
-        category: "Кільця",
+        id: 2,
+        name: 'Підвіска Vivienne Westwood Calliope Pendant Necklace',
+        category: "Підвіски",
         price: 7500,
-        discountPrice: null,
-        image: "https://images.unsplash.com/photo-1603561596112-0a132b757442?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1500&q=80",
+        discountPrice: 6300,
+        image: "https://static.tildacdn.com/stor6664-6133-4162-b935-373964343639/82306430.jpg",
         isNew: true,
-        discount: null
+        discount: 16
+    },
+    {
+        id: 3,
+        name: 'Браслет Vivienne Westwood Kika Bracelet',
+        category: "Браслети",
+        price: 6100,
+        discountPrice: 5400,
+        image: "https://static.tildacdn.com/stor3836-3736-4566-a639-336533346239/22741359.jpg",
+        isNew: true,
+        discount: 12
     },
     {
         id: 4,
-        name: 'Браслет "Галактика"',
-        category: "Браслети",
-        price: 9500,
-        discountPrice: null,
-        image: "https://images.unsplash.com/photo-1611591437268-1b845b1884ab?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1500&q=80",
+        name: 'Підвіска Vivienne Westwood Raimunda Choker',
+        category: "Підвіски",
+        price: 12500,
+        discountPrice: 8900,
+        image: "https://static.tildacdn.com/stor3063-6235-4163-b337-316335663665/83765939.jpg",
         isNew: false,
-        discount: null
+        discount: 30
     },
     {
         id: 5,
-        name: 'Серьги "Венера"',
-        category: "Сережки",
-        price: 6500,
+        name: 'Намисто Vivienne Westwood Broken Pearl Necklace',
+        category: "Намисто",
+        price: 16200,
         discountPrice: null,
-        image: "https://images.unsplash.com/photo-1535632066927-ab7c9ab60908?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1500&q=80",
+        image: "https://static.tildacdn.com/stor3062-6662-4439-b131-383831336130/43236022.jpg",
         isNew: true,
         discount: null
     },
     {
         id: 6,
-        name: 'Колье "Млечный путь"',
-        category: "Намисто",
-        price: 11900,
+        name: 'Cережки Vivienne Westwood Warwick Earrings',
+        category: "Сережки",
+        price: 4900,
         discountPrice: null,
-        image: "https://images.unsplash.com/photo-1599643478518-a784e5dc4c8f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1500&q=80",
-        isNew: false,
+        image: "https://static.tildacdn.com/stor3834-6138-4438-b132-613932366532/95970390.jpg",
+        isNew: true,
         discount: null
     }
 ];
@@ -134,13 +134,13 @@ const featuredProducts = [
 const saleProducts = [
     {
         id: 7,
-        name: 'Браслет "Комета"',
-        category: "Браслети",
-        price: 8900,
-        discountPrice: 6675,
-        image: "https://images.unsplash.com/photo-1611591437268-1b845b1884ab?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1500&q=80",
+        name: 'Підвіска Vivienne Westwood New Tiny Orb Pendant Silver Necklace',
+        category: "Підвіски",
+        price: 9200,
+        discountPrice: 6500,
+        image: "https://static.tildacdn.com/stor6233-6266-4364-a438-663365383762/50963229.jpg",
         isNew: false,
-        discount: 25,
+        discount: 30,
         shortDescr: [
             {
                 title: "Склад:",
@@ -148,63 +148,77 @@ const saleProducts = [
             },
             {
                 title: "Розмір кулона:",
-                text: "4.5 см х 4.2 см"
+                text: "2.3 см х 1.8 см"
             },
             {
                 title: "Довжина:",
-                text: "78 см, довжина регулюється"
+                text: "43.5 см - 47.5 см, довжина регулюється"
             }
         ]
     },
     {
         id: 8,
-        name: 'Серьги "Звезда"',
-        category: "Сережки",
-        price: 7500,
-        discountPrice: 5250,
-        image: "https://images.unsplash.com/photo-1515562141207-7a88fb7ce338?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1500&q=80",
+        name: 'Браслет Vivienne Westwood Mini Bas Relief Bracelet',
+        category: "Браслети",
+        price: 5600,
+        discountPrice: 5100,
+        image: "https://static.tildacdn.com/stor3236-6262-4663-b730-376364363139/32291769.jpg",
         isNew: false,
-        discount: 30
+        discount: 9,
+        shortDescr: [
+            {
+                title: "Склад:",
+                text: "100% латунь"
+            },
+            {
+                title: "Розмір кулона:",
+                text: "2.3 см х 1.8 см"
+            },
+            {
+                title: "Довжина:",
+                text: "43.5 см - 47.5 см, довжина регулюється"
+            }
+        ]
     },
     {
         id: 9,
-        name: 'Кольцо "Нептун"',
-        category: "Кільця",
-        price: 9900,
-        discountPrice: 6930,
-        image: "https://images.unsplash.com/photo-1603561596112-0a132b757442?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1500&q=80",
+        name: 'Сережки Vivienne Westwood Diamante Red Heart Earrings',
+        category: "Сережки",
+        price: 5200,
+        discountPrice: null,
+        image: "https://static.tildacdn.com/stor6630-3333-4639-b863-326665653938/45373616.jpg",
         isNew: false,
-        discount: 30
+        discount: null
     },
     {
         id: 10,
-        name: 'Колье "Астероид"',
+        name: 'Намисто Vivienne Westwood One Mini Bas Relief Choker',
         category: "Намисто",
-        price: 12500,
-        discountPrice: 8750,
-        image: "https://images.unsplash.com/photo-1599643477877-530eb83abc8e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1500&q=80",
+        price: 8800,
+        discountPrice: 7200,
+        image: "https://static.tildacdn.com/stor3833-3834-4661-b433-326339613236/94313685.jpg",
         isNew: false,
-        discount: 30
+        discount: 19
     },
     {
         id: 11,
-        name: 'Браслет "Юпитер"',
-        category: "Браслети",
-        price: 8500,
-        discountPrice: 5950,
-        image: "https://images.unsplash.com/photo-1611591437268-1b845b1884ab?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1500&q=80",
+        name: 'Підвіска Vivienne Westwood Mayfair Bas Relief Dark Silver Necklace',
+        category: "Підвіски",
+        price: 6200,
+        discountPrice: 5500,
+        image: "https://static.tildacdn.com/stor3238-3433-4262-b430-396137626263/46177895.jpg",
         isNew: false,
-        discount: 30
+        discount: 12
     },
     {
         id: 12,
-        name: 'Серьги "Марс"',
-        category: "Сережки",
-        price: 7900,
-        discountPrice: 5530,
-        image: "https://images.unsplash.com/photo-1515562141207-7a88fb7ce338?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1500&q=80",
+        name: 'Намисто Vivienne Westwood Three Row Pearl Bas Relief Choker',
+        category: "Намиста",
+        price: 25000,
+        discountPrice: 15500,
+        image: "https://static.tildacdn.com/stor3732-3261-4631-b739-346161363836/34210539.jpg",
         isNew: false,
-        discount: 30
+        discount: 40
     }
 ];
 

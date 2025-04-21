@@ -130,14 +130,10 @@
             <!-- Mobile Navigation -->
             <div
                 v-if="mobileMenuOpen"
-                class="md:hidden fixed inset-0 z-10 bg-white pt-24 px-5 transition-all duration-500 ease-in-out overflow-y-auto"
+                class="md:hidden min-h-screen h-screen fixed inset-0 z-10 bg-white pt-24 px-5 transition-all duration-500 ease-in-out overflow-y-auto"
                 :class="mobileMenuOpen ? 'translate-y-0' : '-translate-y-full'">
                 <!-- Mobile Search -->
                 <div class="relative mb-6">
-                    <input
-                        type="text"
-                        :placeholder="$t('header.search_placeholder') || 'Search for jewelry...'"
-                        class="w-full py-3 pl-12 pr-4 bg-gray-50 border border-gray-200 rounded-md focus:outline-none focus:ring-2 focus:ring-accent/30 focus:border-accent transition-all" />
                     <Icon
                         name="lucide:search"
                         class="absolute left-4 top-1/2 transform -translate-y-1/2 h-5 w-5 text-gray-400" />
